@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi   
+ Primera Página</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>   
+
+    <h1 id="titulo">Este es el título</h1>
+    <p class="texto">Este es el primer párrafo.</p>
+    <p class="texto">Este es el segundo párrafo.</p>
+    <p class="texto">Este es el tercer párrafo.</p>
+    <button class="boton" id="botonEnviar">Enviar</button>
+</body>
+</html>
