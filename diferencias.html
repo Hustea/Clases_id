@@ -8,10 +8,29 @@
     <link rel="stylesheet" href="styles.css"> </head>
 <body>   
 
+    <h1>Clases vs Identificadores en CSS</h1>
+        <h2>¿Cuándo usar clases y cuándo identificadores?</h2>
+        <p>Las clases (class) e identificadores (id) son atributos que se utilizan en HTML para aplicar estilos CSS a elementos. Aunque ambos sirven para seleccionar elementos, tienen diferentes usos y niveles de especificidad.</p>
+
+        <h3>Clases</h3>
+        <p>Las clases se utilizan para aplicar estilos a múltiples elementos que comparten características similares. Son ideales para crear estilos reutilizables y aplicarlos a diferentes elementos en toda la página.</p>
+        <p><strong>Ejemplo:</strong> Todos los párrafos de un artículo pueden tener la clase "parrafo-articulo" para aplicarles un estilo consistente.</p>
+
+        <h3>Identificadores</h3>
+        <p>Los identificadores se utilizan para seleccionar un elemento único en toda la página. Son ideales para elementos que necesitan un estilo único o para crear puntos de anclaje para enlaces internos.</p>
+        <p><strong>Ejemplo:</strong> El título principal de una página puede tener el identificador "titulo-principal" para aplicarle un estilo específico.</p>
+
+        <h3>Diferencias clave</h3>
+        <ul>
+            <li><strong>Especificidad:</strong> Los identificadores son más específicos que las clases. Si un elemento tiene tanto una clase como un id, el id tendrá prioridad.</li>
+            <li><strong>Reutilización:</strong> Las clases son ideales para estilos reutilizables, mientras que los identificadores son para estilos únicos.</li>
+            <li><strong>Uso:</strong> Las clases se utilizan para agrupar elementos con características similares, mientras que los identificadores se utilizan para identificar elementos únicos.</li>
+        </ul>
+    
     <h1 id="titulo">Este es el título</h1>
-    <p class="texto">Este es el primer párrafo.</p>
-    <p class="texto">Este es el segundo párrafo.</p>
-    <p class="texto">Este es el tercer párrafo.</p>
-    <button class="boton" id="botonEnviar">Enviar</button>
+        <p class="texto">Este es el primer párrafo.</p>
+        <p class="texto">Este es el segundo párrafo.</p>
+        <p class="texto">Este es el tercer párrafo.</p>
+        <button class="boton" id="botonEnviar">Enviar</button>
 </body>
 </html>
