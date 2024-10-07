@@ -19,3 +19,32 @@
 #botonEnviar {
     border: 2px dashed black;
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.destacado {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+
+.otro-destacado {
+    background-color: #e0e0e0;
+    color: blue;
+}
+
+
+.contenido {
+    color: #666;
+    margin: 10px 0;
+}
+
+
+.especial {
+    background-color: yellow;
+    border: 2px solid black;
+}
